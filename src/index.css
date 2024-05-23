@@ -1,0 +1,75 @@
+.app {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e0f7fa;
+  margin: 0;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.password-display {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.password-display input {
+  width: calc(100% - 80px);
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-display button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.settings label {
+  margin-bottom: 10px;
+}
+
+.settings input[type="number"] {
+  width: 60px;
+  margin-left: 10px;
+}
+
+.settings button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.settings input[type="checkbox"] {
+  margin-right: 10px;
+}
